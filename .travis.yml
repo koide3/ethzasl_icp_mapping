@@ -6,4 +6,5 @@ services:
   - docker
 
 script:
-  - docker build -f docker/Dockerfile .
+  - cd docker
+  - docker build -f Dockerfile ..
