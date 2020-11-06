@@ -11,7 +11,7 @@ cd ethzasl_icp_mapping/docker
 
 ## Run
 
-On the host:
+### On host:
 ```bash
 roscore
 ```
@@ -28,7 +28,7 @@ rosbag play --clock hdl_400.bag
 ```
 http://www.aisl.cs.tut.ac.jp/databases/hdl_graph_slam/hdl_400.bag.tar.gz
 
-On the docker image:
+### On docker image:
 ```bash
 cd ethzasl_icp_mapping/docker
 ./run.sh
