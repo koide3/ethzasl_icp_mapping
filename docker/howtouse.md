@@ -35,3 +35,5 @@ cd ethzasl_icp_mapping/docker
 
 roslaunch ethzasl_icp_mapper grizzly_dynamic_mapper_outdoor.launch
 ```
+
+![ethzasl_icp](https://user-images.githubusercontent.com/31344317/98346757-c4bf9480-2059-11eb-93b0-d97dc637fe16.gif)
