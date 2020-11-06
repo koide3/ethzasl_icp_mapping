@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build --tag ethzasl_icp -f Dockerfile ..
+docker build --tag ethzasl_icp -f docker/Dockerfile .
 

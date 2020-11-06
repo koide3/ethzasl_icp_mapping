@@ -26,7 +26,7 @@ WORKDIR /root/catkin_ws2/src
 RUN /bin/bash -c '. /opt/ros/kinetic/setup.bash; catkin_init_workspace'
 
 # RUN git clone https://github.com/ethz-asl/ethzasl_icp_mapping
-COPY ethzasl_icp_mapping /root/catkin_ws2/src/ethzasl_icp_mapping/
+COPY . /root/catkin_ws2/src/ethzasl_icp_mapping/
 
 # build
 WORKDIR /root/catkin_ws2
